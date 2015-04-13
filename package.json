@@ -1,0 +1,22 @@
+{
+  "name": "owski-curry",
+  "version": "0.0.1",
+  "description": "Ted Cackowskis currying implementation",
+  "main": "curry.js",
+  "scripts": {
+    "test": "mocha *.mocha.js"
+  },
+  "keywords": [
+    "curry",
+    "currying",
+    "schonfinkel",
+    "schonfinkelization",
+    "pure",
+    "functional",
+    "purely",
+    "partial",
+    "application"
+  ],
+  "author": "Ted Cackowski Jr",
+  "license": "MIT"
+}
