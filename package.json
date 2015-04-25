@@ -1,6 +1,6 @@
 {
   "name": "owski-curry",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Ted Cackowskis currying implementation",
   "main": "curry.js",
   "scripts": {
@@ -17,14 +17,26 @@
     "partial",
     "application"
   ],
-  "dependencies":{
-    "owski-argList": ">= 0.0.1"
+  "dependencies": {
+    "owski-arglist": "0.0.6",
+    "owski-expose": "0.0.2"
   },
-  "devDependencies":{
-    "mocha":">= 2.2.4",
-    "eyes": "",
-    "must":""
+  "devDependencies": {
+    "eyes": "^0.1.8",
+    "mocha": "^2.2.4",
+    "must": "^0.12.0"
   },
   "author": "Ted Cackowski Jr",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theodorecackowski/owski-curry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theodorecackowski/owski-curry/issues"
+  },
+  "homepage": "https://github.com/theodorecackowski/owski-curry"
 }
