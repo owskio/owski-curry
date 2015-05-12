@@ -1,6 +1,6 @@
 {
   "name": "owski-curry",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Ted Cackowskis currying implementation",
   "main": "curry.js",
   "scripts": {
@@ -18,8 +18,8 @@
     "application"
   ],
   "dependencies": {
-    "owski-arglist": "0.0.6",
-    "owski-expose": "0.0.2"
+    "owski-arglist": "*",
+    "owski-expose": "*"
   },
   "devDependencies": {
     "eyes": "^0.1.8",
